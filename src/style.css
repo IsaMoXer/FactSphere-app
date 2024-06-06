@@ -52,6 +52,7 @@ body {
 @media (max-width: 900px) {
   .main {
     grid-template-columns: 1fr;
+    height: auto;
   }
 }
 
@@ -235,10 +236,6 @@ ul {
 }
 
 @media (max-width: 1000px) {
-  /* body {
-    padding: 32px 48px;
-  }
- */
   .fact-form {
     flex-direction: column;
     align-items: stretch;
@@ -256,15 +253,11 @@ ul {
   padding: 1rem;
 }
 
-@media (max-width: 900px) {
-  .main {
-    grid-template-columns: 1fr;
-    height: auto;
-  }
-}
-
 @media (max-width: 600px) {
   #root {
+    padding: 8px;
+  }
+  body {
     padding: 24px;
   }
 
